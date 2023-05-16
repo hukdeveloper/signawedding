@@ -1,6 +1,5 @@
-import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <>
       <h1>Welcome To Signa Wedding.........</h1>
