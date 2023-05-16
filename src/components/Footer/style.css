@@ -1,5 +1,188 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: column;
+}
+.footer-main .footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #19153e;
+  padding: 46px 0px;
+}
+.footer-main .footer-top h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+}
+.footer-main .footer-top a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 5px 0px;
+}
+.footer-main .footer-top a img {
+  margin-right: 15px;
+}
+.footer-main .footer-top ul {
+  width: 70%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.footer-main .footer-top ul li a {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 1;
+  transition: 0.5s;
+}
+.footer-main .footer-top ul li a:hover {
+  opacity: 0.7;
+}
+.footer-main .footer-top ul li .login-btn {
+  display: flex;
+  align-items: center;
+  background: #cd7f32;
+  padding: 5px 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  color: #9cffe1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.footer-main .footer-top ul li .login-btn:hover {
+  background: #9cffe1;
+  color: #cd7f32;
+}
+.footer-main .footer-top ul li .login-btn:hover img {
+  filter: invert(46%) sepia(99%) saturate(353%) hue-rotate(349deg)
+    brightness(97%) contrast(89%);
+}
+.footer-main .footer-top ul li .login-btn img {
+  margin-right: 5px;
+}
+.footer-main .footer-top .back-to-top-button {
+  background-color: #47fcc1;
+  color: #cd7f32;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.footer-main .footer-top .back-to-top-button:hover {
+  border-radius: 5px;
+  background-color: #cd7f32;
+  color: #47fcc1;
+}
+
+.footer-main .footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-main .footer-bottom .footer-icons {
+  display: flex;
+  margin: 30px 0px;
+}
+.footer-main .footer-bottom .footer-icons img {
+  width: 39px;
+  height: 39px;
+  margin: 0px 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.footer-main .footer-bottom .footer-icons img:hover {
+  filter: invert(11%) sepia(10%) saturate(7315%) hue-rotate(222deg)
+    brightness(87%) contrast(102%);
+}
+.footer-main .footer-bottom p {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #19153e;
+  margin: 70px 0px;
+}
+.footer-main .footer-bottom p img {
+  width: 39px;
+  height: 39px;
+  filter: invert(11%) sepia(10%) saturate(7315%) hue-rotate(222deg)
+    brightness(87%) contrast(102%);
+  margin-right: 15px;
+}
+.footer-main .footer-bottom p a {
+  margin: 0px 5px;
+}
+
+@media screen and (max-width: 1025px) {
+  /* .footer-main .footer-top ul {
+        width: 70%;
+      } */
+  .footer-main .footer-top h3 {
+    font-size: 20px;
+  }
+  .footer-main .footer-top a {
+    font-size: 16px;
+  }
+  .footer-main .footer-top ul li a {
+    font-size: 12px;
+  }
+  .footer-main .footer-bottom .footer-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer-main .footer-bottom p {
+    font-size: 14px;
+    margin: 35px 0px;
+  }
+  .footer-main .footer-bottom p img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .footer-main .footer-top ul {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width: 668px) {
+  .footer-main .footer-top ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .footer-main .footer-top h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .footer-main .footer-top a {
+    font-size: 14px;
+  }
+  .footer-main .footer-bottom p {
+    font-size: 10px;
+    margin: 2px -3px;
+  }
 }
