@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.about * {
+  box-sizing: border-box;
+}
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Dancing Script', cursive; */
+.aboutContainer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.about .aboutTopHead {
+  background: url(../../assets/About-topBackgrndImg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 160px 0;
+}
+.about .aboutTopHead h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  color: #fffffe;
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+.about .aboutContent {
+  padding: 60px 0;
+}
+.about .aboutContent .whoWeArecard {
+  margin-bottom: 160px;
+}
+.about .aboutCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about .aboutCard .imgHead {
+  background: #edf0f2;
+  width: 45%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .aboutCard .imgHead img {
+  width: 80%;
+  object-fit: contain;
+}
+.about .aboutCard .content {
+  width: 55%;
+  padding: 18px;
+  background: #19153e;
+}
+.about .aboutCard .content h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 61px;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  color: #19ffba;
+}
+.about .aboutCard .content p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 29px;
+  font-family: "Open Sans", sans-serif;
+}
+.about .aboutCard .content button {
+  background: #cd7f32;
+  padding: 10px 20px;
+  border: none;
+  transition: all 0.5s;
+}
+.about .aboutCard .content button:hover {
+  background: #efe840;
+  transition: all 0.5s;
+}
+.about .aboutCard .content button a {
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #19153e;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+/* planing card  */
+.about .aboutPlanningCard {
+  justify-content: space-between;
+}
+.about .aboutPlanningCard .content h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+.about .aboutPlanningCard .imgHead {
+  width: 44.5% !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  box-shadow: -6px 6px 0px 1px #19153e;
+}
+.about .aboutPlanningCard .imgHead img {
+  width: 100% !important;
+  height: 100%;
+  object-fit: cover;
+}
+.about .aboutContent .aboutPlanningCard h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.about .aboutContent .aboutPlanningCard a {
+  display: block !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+@media screen and (min-width: 1600px) {
+  .aboutContainer {
+    width: 76rem !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about .aboutCard .content p {
+    margin-bottom: 20px !important;
+  }
+  .about .aboutCard .content h1 {
+    font-size: 55px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .aboutContainer {
+    width: 100% !important;
+  }
+  .about .aboutCard .content p {
+    margin-bottom: 10px !important;
+  }
+  .about .aboutTopHead h1 {
+    font-size: 40px !important;
+  }
+  .about .aboutContent .whoWeArecard {
+    margin-bottom: 120px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about .aboutCard .imgHead {
+    width: 100% !important;
+  }
+  .about .aboutPlanningCard .imgHead {
+    width: 96.5% !important;
+  }
+  .about .aboutPlanningCard {
+    justify-content: center !important;
+  }
+  .about .aboutPlanningCard .imgHead {
+    margin-bottom: 12px !important;
+  }
+  .about .aboutCard .content {
+    width: 100% !important;
+  }
+  .about .aboutTopHead {
+    padding: 100px 0 !important;
+  }
+  .about .aboutContent {
+    padding: 40px 0 !important;
+  }
+  .about .aboutContent .whoWeArecard {
+    margin-bottom: 80px !important;
+  }
+  .about .aboutContent .aboutPlanningCard a {
+    font-size: 14px !important;
+  }
+  .about .aboutContent .aboutPlanningCard h6 {
+    font-size: 12px !important;
+    margin-bottom: unset !important;
+  }
+  .about .aboutPlanningCard .imgHead img {
+    object-fit: contain !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about .aboutTopHead h1 {
+    font-size: 28px !important;
+  }
+  .about .aboutContent {
+    padding: 20px 0 !important;
+  }
+  .about .aboutTopHead {
+    padding: 80px 0 !important;
+  }
+  .about .aboutCard .content h1 {
+    font-size: 45px !important;
+  }
+  .about .aboutCard .content p {
+    font-size: 12px !important;
+    line-height: 18px !important;
+  }
+  .about .aboutContent .whoWeArecard {
+    margin-bottom: 60px !important;
+  }
+  .about .aboutContent .aboutPlanningCard a {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about .aboutCard .content button {
+    width: 100%;
+  }
+  .about .aboutCard .content button a {
+    font-size: 10px !important;
+  }
+}
+

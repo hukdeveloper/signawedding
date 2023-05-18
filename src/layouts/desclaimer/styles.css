@@ -1,0 +1,144 @@
+.disclaimerPage{
+  padding: 0 0 60px ;
+}
+.disclaimerPage * {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000 !important;
+
+}
+.disclaimerPage .disclaimerContainer {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.disclaimerPage .head {
+  padding: 16px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+.disclaimerPage .head h4 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+  
+}
+.disclaimerPage .disclaimerContent h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  padding: 26px 0 !important;
+  text-transform: capitalize;
+  
+}
+.disclaimerPage .disclaimerContent p{
+    font-size: 16px;
+    padding: 10px 0!important;
+    line-height: 28px;
+}
+.disclaimerPage .disclaimerContent h2{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 26px 0 !important;
+    color: #000;
+}
+.disclaimerPage .disclaimerContent .DisclaimerList{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.disclaimerPage .disclaimerContent .DisclaimerList li{
+  font-size: 16px;
+  margin-left: 28px;
+  line-height: 28px;
+}
+.disclaimerPage .disclaimerContent .DisclaimerList li span{
+  font-weight: bold;
+}
+.disclaimerPage .disclaimerContent .DisclaimerList li a{
+  color: #0452a5 !important;
+  text-decoration: none;
+}
+.disclaimerPage .disclaimerContent .DisclaimerList .disclaimerEmail{
+  margin-left: 40px !important;
+}
+
+/* media queries */
+
+@media screen and (max-width: 992px) {
+  .disclaimerPage {
+    padding: 0 0 40px;
+}
+  .disclaimerPage .disclaimerContainer {
+    width: 100% !important;
+  }
+  .disclaimerPage .disclaimerContent h1{
+    padding: 20px 0 !important;
+    font-size: 34px !important;
+  }
+  .disclaimerPage .disclaimerContent .DisclaimerList li{
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .disclaimerPage {
+    padding: 0 0 20px;
+}
+  .disclaimerPage .head{
+    padding: 14px 0 !important;
+  }
+  .disclaimerPage .disclaimerContent h1{
+    padding: 18px 0 !important;
+    font-size: 28px !important;
+  }
+  .disclaimerPage .head h4{
+    font-size: 20px;
+  }
+  .disclaimerPage .disclaimerContent .DisclaimerList li{
+    font-size: 12px !important;
+  }
+  .disclaimerPage .disclaimerContent p{
+    font-size: 12px !important;
+    padding: 0 !important;
+  }
+  .disclaimerPage .disclaimerContent h2{
+    padding: 18px 0 !important;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .disclaimerPage .disclaimerContainer{
+    padding: 0 10px !important;
+  }
+  .disclaimerPage .head{
+    padding: 10px 0 !important;
+  }
+  .disclaimerPage .disclaimerContent h1{
+    font-size: 20px !important;
+    padding: 14px 0 !important;
+  }
+  .disclaimerPage .disclaimerContent h2{
+    padding: 14px 0;
+    padding: 10px 0 !important;
+  }
+  .disclaimerPage .disclaimerContent .DisclaimerList li{
+    margin-left: 22px !important;
+  }
+  .disclaimerPage .disclaimerContent .DisclaimerList .disclaimerEmail{
+    margin-left: 30px  !important;
+  }
+}
+@media screen and (max-width: 400px){
+  .disclaimerPage .disclaimerContent h1 {
+    font-size: 14px !important;
+}
+.disclaimerPage .disclaimerContent h2 {
+  padding: 10px 0 !important;
+  font-size: 15px;
+}
+.disclaimerPage .head h4 {
+  font-size: 16px !important;
+}
+.disclaimerPage .disclaimerContent .DisclaimerList .disclaimerEmail {
+  margin-left: 22px !important;
+}
+}
