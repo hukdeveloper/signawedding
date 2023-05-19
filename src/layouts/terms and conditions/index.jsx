@@ -13,8 +13,8 @@ const TermsAndConditions = () => {
               <h1>DBA Signature Weddings Away</h1>
             </div>
             <p>
-              PLEASE READ THIS.  IT CONSTITUTES PART OF YOUR CONTRACT FOR YOUR
-              TRIP AND ANY RELATED SERVICES.  PLEASE LET US KNOW IF YOU HAVE ANY
+              PLEASE READ THIS IT CONSTITUTES PART OF YOUR CONTRACT FOR YOUR
+              TRIP AND ANY RELATED SERVICES PLEASE LET US KNOW IF YOU HAVE ANY
               QUESTIONS.
             </p>
             <p>
@@ -135,8 +135,8 @@ const TermsAndConditions = () => {
               fees as described below would be in effect.
             </p>
             <p>
-              TRAVELER INFORMATION. While we do not assist with air
-              reservations, we bring to your attention the importance of
+              <span> TRAVELER INFORMATION. </span> While we do not assist with
+              air reservations, we bring to your attention the importance of
               accuracy. Names provided to secure reservations must match
               travelers’ passport. Middle names are not required to appear on
               airline tickets. Date of birth and complete passport details are
@@ -197,7 +197,7 @@ const TermsAndConditions = () => {
               </ul>
             </p>
             <p>
-              PRICE AND RATE CHANGES.  The price of your itinerary will be based
+             <span> PRICE AND RATE CHANGES. </span> The price of your itinerary will be based
               on known costs at the date of issue of the itinerary.  All prices
               we advertise are accurate at the date published, but we reserve
               the right to change any of those prices from time to time.  
@@ -436,14 +436,14 @@ const TermsAndConditions = () => {
               tour that has been changed.
             </p>
             <p>
-              <span>NO REFUND FOR UNUSED ARRANGEMENTS.</span>  As Group
+              <span className="groupRequirements">NO REFUND FOR UNUSED ARRANGEMENTS.</span>  As Group
               Getaways’ prices are based on contract rates, there will not be
               any refund for any unused portion of a travel booking. If you
               cancel while the trip is in progress, there is no refund for the
               unused portion.
             </p>
             <p>
-              <span>FORCE MAJEURE.</span> Group Getaways assumes no liability
+              <span className="groupRequirements">FORCE MAJEURE.</span> Group Getaways assumes no liability
               for, any loss, damage, delay, or cancellation resulting in whole
               or in part from an Act of God or any other force majeure
               condition, including, without limitation: fire, volcanic eruption,
@@ -467,7 +467,7 @@ const TermsAndConditions = () => {
               refund these to you without any charge by Group Getaways.
             </p>
             <p>
-              <span>TRAVEL PROTECTION</span>
+              <span className="groupRequirements">TRAVEL PROTECTION</span>
             </p>
             <p>
               It is the traveler’s responsibility to protect their purchases.
@@ -488,7 +488,7 @@ const TermsAndConditions = () => {
               otherwise have been available.  
             </p>
             <p>
-              <span>DESTINATIONS AND DOCUMENTATION.</span>  Travel to certain
+              <span className="groupRequirements">DESTINATIONS AND DOCUMENTATION.</span>  Travel to certain
               destinations may involve greater risk than others. Group Getaways
               urges Travelers to remain informed on a daily basis as to current
               news, as well as to review travel prohibitions, warnings,
@@ -551,7 +551,7 @@ const TermsAndConditions = () => {
               improper documentation or government decisions about entry.
             </p>
             <p>
-              INSECTICIDE NOTICE.  Travelers are encouraged to check the list of
+              <span>INSECTICIDE NOTICE.</span>  Travelers are encouraged to check the list of
               countries that require airlines to treat the passenger cabin with
               insecticides prior to the flight or while on the aircraft on the
               U.S. Department of Transportation’s Web site, as this list is
@@ -581,7 +581,7 @@ const TermsAndConditions = () => {
               from any act or omission on the part of others; Group Getaways
               assumes no responsibility or liability for personal property
             </p>
-            <span> Assumption of Risk/Waiver.</span>  Traveler is aware that
+            <p> <span>Assumption of Risk/Waiver.</span> Traveler is aware that
             travel such area as traveler is undertaking on the trip may involve
             inherent risks, some in remote areas of the world. Inherent risks
             include, but are not limited to, risk of injury or death from: motor
@@ -602,6 +602,7 @@ const TermsAndConditions = () => {
             without access to means of rapid evacuation or availability of
             medical supplies or services; and the adequacy of medical attention
             once provided.
+            </p>
             <p>
               Traveler understands the description of these risks, is not
               complete and that unknown or unanticipated risks may result in
@@ -655,7 +656,7 @@ const TermsAndConditions = () => {
             <p>
               <span>
                 Pre-existing Medical Conditions/Persons with Disabilities.
-              </span>{" "}
+              </span>
               The nature of many of the destinations we travel to means that in
               some cases they may be unsuitable for those who use a wheelchair
               or have a lack of mobility. However, we will be delighted to
@@ -687,7 +688,7 @@ const TermsAndConditions = () => {
               to travel.
             </p>
             <p>
-              HEALTH. For the safety or our guests, Group Getaways reserves the
+             <span> HEALTH. </span> For the safety or our guests, Group Getaways reserves the
               right to request health information prior to travel and to exclude
               any participants it deems unfit for travel at its sole discretion.
             </p>
@@ -703,7 +704,7 @@ const TermsAndConditions = () => {
               <span>
                 GOVERNING LAW/SUBMISSION TO JURISDICTION/ CLASS ACTION
                 WAIVER/LIMITATION OFDAMAGES/NOTICE OF CLAIM.
-              </span>{" "}
+              </span>
               This Agreement and all attachments hereto and the rights of the
               parties hereunder shall be governed by and construed in accordance
               with the laws of the State of New Jersey exclusive of conflict or

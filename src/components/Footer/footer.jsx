@@ -1,10 +1,10 @@
 import "./style.css";
-import PhoneIcon from "../../assets/phone.svg";
-import FacebookIcon from "../../assets/facebook.png";
-import InstagramIcon from "../../assets/instagram.png";
-import PrintrestIcon from "../../assets/printrest.png";
-import CopyrightIcon from "../../assets/copyright.svg";
-import UserIcon from "../../assets/loginIcon.svg";
+import PhoneIcon from "../../assets/images/phone.svg";
+import FacebookIcon from "../../assets/images/facebook.png";
+import InstagramIcon from "../../assets/images/instagram.png";
+import PrintrestIcon from "../../assets/images/printrest.png";
+import CopyrightIcon from "../../assets/images/copyright.svg";
+import UserIcon from "../../assets/images/loginIcon.svg";
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({

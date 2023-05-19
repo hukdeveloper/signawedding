@@ -1,0 +1,62 @@
+.reviewsHead {
+  width: 100%;
+  padding: 0 0 20px;
+}
+
+.reviewsHead .swiper-slide {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: unset !important;
+
+  overflow: hidden;
+}
+.reviewsHead .swiper-slide .review-card {
+  padding: 42px 32px !important;
+  text-align: center;
+}
+.reviewsHead .swiper-slide .review-card .ratingIcons {
+  margin-bottom: 30px;
+}
+.reviewsHead .swiper-slide .review-card p {
+  font-family: "open sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 30.4px;
+  text-transform: capitalize;
+}
+.reviewsHead .swiper-slide .review-card h1 {
+  font-style: italic;
+  font-size: 26px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.reviewsHead .swiper-pagination {
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  top: 50% !important;
+  /* transform: translateY(-40px); */
+  color: #9f9b2b !important;
+}
+.swiper-button-next:hover {
+  color: #9f9b2b9f !important;
+}
+
+.swiper-button-prev:hover {
+  color: #9f9b2b9f !important;
+}
+.reviewsHead .swiper-pagination-bullet {
+  background: #9f9b2b !important;
+}
+.reviewsHead .swiper-pagination-bullet-active {
+  background: #9f9b2b !important;
+}

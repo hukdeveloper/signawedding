@@ -1,7 +1,11 @@
+@font-face {
+  font-family: "Playlist";
+  src: url("../../assets/fonts/playlist.otf") format("truetype");
+}
 .termsAndConditionsPage * {
   box-sizing: border-box;
   color: rgb(0, 0, 0);
-  
+  font-family: "Playlist" !important;
 }
 .termsAndConditionsPage {
   padding: 30px 0;
@@ -9,33 +13,86 @@
 .termsAndConditionsPage .termsAndConditionsContainer {
   width: 70%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 200px 30px;
 }
 .termsAndConditionsPage .termsAndConditionsContent .termsAndConditionsHead {
   padding: 100px 0;
 }
 .termsAndConditionsPage .termsAndConditionsContent .termsAndConditionsHead h1 {
-  font-size: 20px;
+  font-size: 40px !important;
+  color: #000000;
+  font-weight: 600;
   overflow-wrap: break-word;
-  
 }
-.termsAndConditionsPage .termsAndConditionsContent p{
-    font-size: 14px;
-    margin-bottom: 38px;
+.termsAndConditionsPage .termsAndConditionsContent p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: normal;
+  color: #0000008f;
+  letter-spacing: normal;
+  margin-bottom: 20px;
 }
-.termsAndConditionsPage .termsAndConditionsContent .chargeBacks{
- padding: 0;
- list-style: none;
-
+.termsAndConditionsPage .termsAndConditionsContent .chargeBacks {
+  padding: 0;
+  list-style: none;
+  font-size: 26px !important;
 }
-.termsAndConditionsPage .termsAndConditionsContent span{
+.termsAndConditionsPage .termsAndConditionsContent .chargeBacks li {
+  color: #000000b8 !important;
+}
+.termsAndConditionsPage .termsAndConditionsContent span {
   text-transform: capitalize;
-}
-.termsAndConditionsPage .termsAndConditionsContent .tourIncludes{
   font-weight: bold;
-  margin-bottom: 10px!important ;
 }
-.termsAndConditionsPage .termsAndConditionsContent .groupRequirements{
+.termsAndConditionsPage .termsAndConditionsContent .tourIncludes {
+  font-weight: bold !important;
+  font-size: 34px !important;
+  margin-bottom: 10px !important ;
+  color: #000000b8 !important;
+}
+.termsAndConditionsPage .termsAndConditionsContent .groupRequirements {
   font-weight: bold;
   margin-bottom: 10px !important;
+  color: #000000b8 !important;
+}
+
+/* media queries */
+@media screen and (max-width: 992px) {
+  .termsAndConditionsPage .termsAndConditionsContainer {
+    width: 100% !important;
+    padding: 60px 30px !important;
+    
+   
+  }
+  .termsAndConditionsPage
+    .termsAndConditionsContent
+    .termsAndConditionsHead
+    h1 {
+    font-size: 30px !important;
+  }
+  .termsAndConditionsPage .termsAndConditionsContent p {
+    font-size: 20px !important;
+    margin-bottom: 18px !important;
+  }
+  .termsAndConditionsPage .termsAndConditionsContent .chargeBacks {
+   
+    font-size: 18px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .termsAndConditionsPage
+    .termsAndConditionsContent
+    .termsAndConditionsHead
+    h1 {
+    font-size: 20px !important;
+  }
+  .termsAndConditionsPage .termsAndConditionsContent p {
+    font-size: 16px !important;
+    margin-bottom: 16px !important;
+  }
+  .termsAndConditionsPage .termsAndConditionsContent .chargeBacks {
+   
+    font-size: 14px !important;
+  }
 }

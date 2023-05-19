@@ -1,8 +1,9 @@
 import Footer from "../components/Footer/footer";
 import NavTop from "../components/NavbarTop/navtop";
-import About from "./about";
+import About from "../layouts/about";
 import Disclaimer from "../layouts/desclaimer";
 import TermsAndConditions from "./terms and conditions";
+
 const App = () => {
   return (
     <>

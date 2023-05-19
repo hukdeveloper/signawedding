@@ -1,14 +1,16 @@
 import React from "react";
 import "./styles.css";
-import SignatureImg from "../../assets/About-signIMG.png";
-import planningImg from "../../assets/planningImg.webp";
+import SignatureImg from "../../assets/images/About-signIMG.png";
+import planningImg from "../../assets/images/planningImg.webp";
 
 const About = () => {
   return (
     <>
       <div className="about">
         <div className="aboutTopHead">
-          <h1>lets Plan Events of your Dreams</h1>
+          <div className="aboutContainer">
+            <h1>Let’s plan the Event of your dreams</h1>
+          </div>
         </div>
         <div className="aboutContainer">
           <div className="aboutContent">
@@ -62,7 +64,7 @@ const About = () => {
                 <h1>Elsa S Davis</h1>
                 <p>Plain and simple, I do what I love.</p>
                 <p>
-                  t's not every day you get the opportunity to do what you're
+                  it's not every day you get the opportunity to do what you're
                   passionate about, but I am fortunate enough to be doing just
                   that!
                 </p>

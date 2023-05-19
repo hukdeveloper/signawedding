@@ -1,0 +1,68 @@
+.JoinMailHead * {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.JoinMailHead {
+  margin: 30px 0;
+  padding: 60px 0;
+  background: #19153e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.JoinMailHead .form {
+  display: flex;
+  flex-direction: column;
+}
+.JoinMailHead .form h2 {
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+.JoinMailHead .form label {
+  font-size: 16px;
+  margin: 15px 0;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.JoinMailHead .form input {
+  background: #19ffba;
+  font-size: 20px;
+  text-overflow: ellipsis;
+  border-radius: 2px;
+  color: white !important;
+  padding: 4px 10px;
+  text-align: center;
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid transparent !important;
+}
+.JoinMailHead .form input:focus{
+  background: #301a3f;
+  border-bottom: 2px solid #ff4040 !important;
+}
+.JoinMailHead .form input::placeholder {
+  color: white;
+}
+.JoinMailHead .form button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  padding: 20px 30px;
+  background: #cd7f32;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgb(0, 0, 0) 0px 25px 20px -20px;
+  transition: all 0.5s;
+}
+
+.JoinMailHead .form button:hover {
+  background: #000000;
+  transition: all 0.5s;
+}
