@@ -8,6 +8,14 @@
   display: flex;
   flex-direction: column;
 }
+.footer-main .footer-logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.footer-main .footer-logo img{
+  width: 256px;
+}
 .footer-main .footer-top {
   display: flex;
   flex-direction: column;

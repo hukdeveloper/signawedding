@@ -5,6 +5,9 @@ import InstagramIcon from "../../assets/instagram.png";
 import PrintrestIcon from "../../assets/printrest.png";
 import CopyrightIcon from "../../assets/copyright.svg";
 import UserIcon from "../../assets/loginIcon.svg";
+import FooterLogo from "../../assets/wow-image.png";
+
+
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -14,6 +17,9 @@ const Footer = () => {
   };
   return (
     <div className="footer-main">
+      <div className="footer-logo">
+        <img src={FooterLogo} alt="" />
+      </div>
       <div className="footer-top">
         <h3>Office Hours: T•W•F 10-2 PM; 4-6PM EST</h3>
         <a href="mailto:hello@signatureweddingsaways.com">
